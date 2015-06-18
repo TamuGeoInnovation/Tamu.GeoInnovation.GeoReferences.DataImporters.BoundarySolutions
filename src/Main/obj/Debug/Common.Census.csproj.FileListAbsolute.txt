@@ -1,0 +1,5 @@
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Census\src\obj\Debug\Common.Census.csprojResolveAssemblyReference.cache
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Census\build\v1.0\bin\AnyCPU\debug\USC.GISResearchLab.Common.Census.dll
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Census\build\v1.0\bin\AnyCPU\debug\USC.GISResearchLab.Common.Census.pdb
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Census\src\obj\Debug\USC.GISResearchLab.Common.Census.dll
+C:\Dev\VS2008DotNetDevelopment\USC\GISResearchLab\Common\Census\src\obj\Debug\USC.GISResearchLab.Common.Census.pdb
