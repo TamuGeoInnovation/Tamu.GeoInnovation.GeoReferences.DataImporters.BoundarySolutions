@@ -1,3 +1,0 @@
-C:\DevSource\Tamu\GeoInnovation\GeoReferences.DataImporters.BoundarySolutions\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.GeoReferences.DataImporters.BoundarySolutions.dll
-C:\DevSource\Tamu\GeoInnovation\GeoReferences.DataImporters.BoundarySolutions\src\Main\obj\Release\GeoReferences.DataImporters.BoundarySolutions.Dev.csprojResolveAssemblyReference.cache
-C:\DevSource\Tamu\GeoInnovation\GeoReferences.DataImporters.BoundarySolutions\src\Main\obj\Release\Tamu.GeoInnovation.GeoReferences.DataImporters.BoundarySolutions.dll
