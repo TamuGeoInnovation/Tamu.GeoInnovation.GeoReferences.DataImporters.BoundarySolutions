@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Reimers.Esri;
+using System;
 using System.Data;
-using Reimers.Esri;
 using USC.GISResearchLab.Common.Shapefiles.ShapefileReaders;
 
 namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.AbstractClasses

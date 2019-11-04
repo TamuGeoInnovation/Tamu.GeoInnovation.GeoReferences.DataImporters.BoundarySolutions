@@ -92,7 +92,7 @@ namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.
             SQLPostInsertTableDeleteNamedStreetsOnly += "  [dbo].[" + StateName + "].[SIT_STR_NA] IS NULL ";
             SQLPostInsertTableDeleteNamedStreetsOnly += " ; ";
 
-            
+
 
             SQLPostInsertTableDeleteAddressableStreetsOnly += " DELETE FROM ";
             SQLPostInsertTableDeleteAddressableStreetsOnly += "  [dbo].[" + StateName + "] ";
@@ -102,7 +102,7 @@ namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.
             SQLPostInsertTableDeleteAddressableStreetsOnly += "  [dbo].[" + StateName + "].[SIT_STR_NA] IS NULL ";
             SQLPostInsertTableDeleteAddressableStreetsOnly += " ; ";
 
-            
+
             // statistics
             SQLCreateTableStatistics = "";
             SQLCreateTableStatistics += " IF  EXISTS (SELECT * FROM sysobjects WHERE type = 'U' AND name = '" + StateName + "') ";
@@ -116,7 +116,7 @@ namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.
 
             SQLCreateTableStatistics += " IF  EXISTS (SELECT * FROM sysobjects WHERE type = 'U' AND name = '" + StateName + "') ";
             SQLCreateTableStatistics += "  CREATE STATISTICS [_dta_stat_4] ON [dbo].[" + StateName + "]([uniqueId], [SIT_HSE_NU], [SIT_STR_NA_Soundex], [SIT_CITY_Soundex]) ;";
-           
+
 
             // these queries are the spatial indexes required in all scenarios
             string SQLPostInsertSingleTableUpdateSpatialIndexes = "";

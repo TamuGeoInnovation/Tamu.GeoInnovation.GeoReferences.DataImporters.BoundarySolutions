@@ -23,11 +23,11 @@ namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.
         string[][] BulkCopyColumnMappings { get; set; }
         string[] ExcludeColumns { get; set; }
         string SQLCreateTable { get; set; }
-        
-        
+
+
         string SQLPostInsertTableDeleteNamedStreetsOnly { get; set; }
         string SQLPostInsertTableDeleteAddressableStreetsOnly { get; set; }
-        
+
         string SQLCreateTableIndexes { get; set; }
         string SQLCreateTableStatistics { get; set; }
 

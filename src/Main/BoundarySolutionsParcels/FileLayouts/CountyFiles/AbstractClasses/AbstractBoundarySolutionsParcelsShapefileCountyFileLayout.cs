@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Reimers.Esri;
+using System;
 using System.Data;
-using Reimers.Esri;
 using USC.GISResearchLab.Common.Shapefiles.ShapefileReaders;
 
 namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.CountyFiles.AbstractClasses
@@ -77,7 +77,7 @@ namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.
                 ret.ShouldTrimStringData = true;
                 ret.ShouldAbortOnError = ShouldAbortOnError;
                 ret.ShouldIncludeImportTime = true;
-               
+
                 //ret.IncludeLineEndPoints = HasEndPointsColumns;
                 //ret.IncludeLineEndPointsColumns = EndPointsColumns;
                 //ret.ShouldAddEvenOddFlag = ShouldAddEvenOddFlag;

@@ -1,16 +1,16 @@
-﻿using System;
+﻿using ICSharpCode.SharpZipLib.Zip;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using ICSharpCode.SharpZipLib.Zip;
 using USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.AbstractClasses;
 using USC.GISResearchLab.Common.Utils.Directories;
 using USC.GISResearchLab.Common.Utils.Files;
 
 namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.CountyFiles.AbstractClasses
 {
-    public abstract class AbstractBoundarySolutionsParcelsCountyFileLayout: AbstractBoundarySolutionsParcelsFileLayout
+    public abstract class AbstractBoundarySolutionsParcelsCountyFileLayout : AbstractBoundarySolutionsParcelsFileLayout
     {
 
         public AbstractBoundarySolutionsParcelsCountyFileLayout(string tableName)
@@ -123,7 +123,7 @@ namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.
                     string now = DateTime.Now.Millisecond.ToString();
                     string fileName = FileUtils.GetFileNameWithoutExtension(zipFileLocation);
                     tempDirectory = FileUtils.GetDirectoryPath(zipFileLocation) + "_temp_" + fileName + "_" + now + "\\";
-                    
+
                     if (Directory.Exists(tempDirectory))
                     {
                         Directory.Delete(tempDirectory, true);

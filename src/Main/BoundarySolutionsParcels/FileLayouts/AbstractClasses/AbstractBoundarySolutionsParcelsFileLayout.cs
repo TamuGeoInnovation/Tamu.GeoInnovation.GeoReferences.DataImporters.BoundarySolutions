@@ -25,25 +25,25 @@ namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.
 
         public IQueryManager DataFileQueryManager { get; set; }
         public string SQLCreateTable { get; set; }
-        
-        
+
+
         public string SQLPostInsertTableDeleteNamedStreetsOnly { get; set; }
         public string SQLPostInsertTableDeleteAddressableStreetsOnly { get; set; }
-        
+
         public string SQLCreateTableIndexes { get; set; }
         public string SQLCreateTableStatistics { get; set; }
-        
+
         public string[] ExcludeColumns { get; set; }
-        
+
         public bool HasSoundexColumns { get; set; }
         public string[] SoundexColumns { get; set; }
-        
-        
+
+
 
         public bool HasSoundexDMColumns { get; set; }
         public string[] SoundexDMColumns { get; set; }
 
-        
+
         public bool ShouldIncludeGeometryProjected { get; set; }
 
         public bool ShouldIncludeArea { get; set; }
@@ -60,7 +60,8 @@ namespace USC.GISResearchLab.Common.Census.BoundarySolutionsParcels.FileLayouts.
 
         public string OutputTableName
         {
-            get {
+            get
+            {
                 string ret = "";
                 if (!String.IsNullOrEmpty(StateName))
                 {
